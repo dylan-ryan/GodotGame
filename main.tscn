@@ -143,9 +143,9 @@ use_collision = true
 size = Vector3(51.5952, 1, 1)
 
 [node name="Ground" type="CSGBox3D" parent="World"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.1, -2.08698, -15.9682)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.1, -2.08698, -15.9364)
 use_collision = true
-size = Vector3(19.5556, 4.20396, 51.3364)
+size = Vector3(19.5556, 4.20396, 51)
 material = SubResource("StandardMaterial3D_ig7tw")
 
 [node name="Hole" type="CSGCylinder3D" parent="World/Ground"]
@@ -191,9 +191,9 @@ use_collision = true
 size = Vector3(51.5952, 1, 1)
 
 [node name="Ground" type="CSGBox3D" parent="World2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.385, -2.08698, -15.9682)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.385, -2.08698, -16.0364)
 use_collision = true
-size = Vector3(19.5556, 4.20396, 51.3364)
+size = Vector3(19.5556, 4.20396, 51.2)
 material = SubResource("StandardMaterial3D_ig7tw")
 
 [node name="Hole" type="CSGCylinder3D" parent="World2/Ground"]
@@ -239,9 +239,9 @@ use_collision = true
 size = Vector3(51.5952, 1, 1)
 
 [node name="Ground" type="CSGBox3D" parent="World3"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 97.2, -2.08698, -15.9682)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 97.2, -2.08698, -16.0364)
 use_collision = true
-size = Vector3(19.5556, 4.20396, 51.3364)
+size = Vector3(19.5556, 4.20396, 51.2)
 material = SubResource("StandardMaterial3D_ig7tw")
 
 [node name="Hole" type="CSGCylinder3D" parent="World3/Ground"]
